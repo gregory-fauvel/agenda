@@ -1,0 +1,79 @@
+body{
+	background-image: url(image/fondagenda.jpg); 
+	background-repeat: no-repeat;
+	background-size: 1500px 2200px;
+}
+body.formulaire{
+	height: 550px;
+	background-color:#A9EAFE;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:solid black double;
+}
+
+h1{
+	text-shadow: -2px -2px white, 2px 2px #333
+}
+
+table{
+	margin-left: 100px;
+	border:2px solid;
+	border-radius: 20px;
+}
+table > tbody> tr:first-child > td:first-child{
+	border-bottom-left-radius: 20px;
+}
+table > thead > tr:first-child > th:first-child {
+	border-top-left-radius: 20px;
+}
+table > thead > tr:first-child > th:last-child {
+	border-top-right-radius: 20px;
+}
+
+table > tbody > tr:last-child > td:last-child {
+	border-bottom-right-radius: 20px;
+}
+
+td{
+	background-color:#EFEFEF;
+	padding: 20px;
+}
+
+th{
+	background-color: grey;
+	padding: 40px;
+}
+
+.heure{
+	background-color: grey;
+
+}
+.heur12{
+	background-color:#1E7FCB;
+}
+.reunion{
+	background-color: red;	
+}
+.cours{
+	background-color: green;
+}
+.repas{
+	background-color: yellow;
+}
+.dej{
+	background-color: blue;
+}
+.petanque{
+	background-color: brown;
+}
+footer{
+	display:flex; 
+	flex-direction: row;
+	justify-content: center;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+

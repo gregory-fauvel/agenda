@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="agenda.css">
+	<title>formulaire</title>
+</head>
+<body class="formulaire">
+	<div>
+		<h1>Formulaire:</h1>
+
+			<br><form method="post" action="traitement.php">
+			<label for="titre">Titre évènements:</label>
+			<input type="text" id="titre" placeholder="📅 Evènements"></form></br>
+
+			<br><form method="post" action="traitement.php">
+			<label for="description">Description :</label>
+			<input type="text" id="description"placeholder="📅Quoi?"></form></br>
+
+			<br><form method="post" action="traitement.php">
+			<label for="date">Date évènement:</label>
+			<input type="text" id="date"placeholder="📅Quand?"></form></br>
+
+			<br><form method="post" action="traitement.php">
+			<label for="lieu">Lieu évènement:</label>
+			<input type="text" id="lieu"placeholder="📅Ou?"></form></br>
+
+			<br><label>Catégories</label>
+			<select required>
+				<option value="1">Travail</option>
+				<option value="2">Famille</option>
+				<option value="3">Anniversaire</option>
+				<option value="4">Fêtes</option>
+			</select></br>
+
+			<br><input type="submit" value="Envoyer le Formulaire"></br>
+	</div>
+
+</body>
+</html>
